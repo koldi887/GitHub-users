@@ -1,0 +1,30 @@
+.AppContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 15rem;
+    margin-left: 15rem;
+    gap: 3rem
+}
+
+.userBlock {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 10rem;
+    height: 20rem;
+    border: 3px solid black;
+}
+
+.userImg {
+    width: 5rem;
+    height: 5rem;
+}
+
+.active {
+    background-color: antiquewhite;
+}
+
+.selected:hover {
+    background-color: antiquewhite;
+    cursor: pointer;
+}
